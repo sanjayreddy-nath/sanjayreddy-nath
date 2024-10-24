@@ -1,0 +1,64 @@
+.head{
+    text-align: center;
+    text-decoration: underline;
+    
+}
+
+.text-right-captize{
+    text-align: right;
+    text-transform: capitalize;
+
+
+}
+
+.text-center-lower{
+    text-align: center;
+    text-transform: lowercase;
+
+}
+
+.text-left-upper{
+    text-align: left;
+    text-transform: uppercase;
+
+}
+
+header{
+    background-image: url("https://c8.alamy.com/comp/2G7D5K3/fitness-club-or-gym-logo-emblem-fist-holds-barbell-and-inscription-gym-isolated-on-white-vector-illustratin-2G7D5K3.jpg");
+    background-repeat: repeat-x;
+    background-size: contain;
+    color: white;
+}
+section{
+    background: linear-gradient(to top left, rgba(168, 193, 228, 0.881),lightgreen);
+}
+
+.small-header{
+    background: linear-gradient(to right, rgb(243, 206, 137),rgb(219, 136, 35));
+    color: white;
+    font-size:xx-large;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.box{
+    background-color: white;
+    border: 2px solid blue;
+    max-width: 200px;
+    max-height: 250px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 650px;
+    padding-top: 0px;
+    padding-left: 20px;
+    padding-bottom: 50px;
+    padding-right: 20px;
+    position: relative;
+
+}
+
+.box-h4{
+    color: lightskyblue;
+    text-align: center;
+}
