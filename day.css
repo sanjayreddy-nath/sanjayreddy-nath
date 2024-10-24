@@ -1,0 +1,42 @@
+
+body{
+    background-color: rgba(238, 210, 190, 0.903);
+}
+header{
+    background: linear-gradient(to left, #946b5b,hsl(17, 46%, 61%));
+    color: white;
+    text-align: center;
+    font-size: large;
+    height: 13vh;
+    padding-top: 1vh;
+    text-decoration: underline;
+    text-transform: capitalize;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    box-sizing: content-box;
+
+}
+
+footer{
+    background: linear-gradient(to left, #8C6A5D,#bb998c);
+    color: white;
+    text-align: center;
+    height: 8vh;
+    padding-top: 1vh;
+
+}
+.box{
+    box-sizing: content-box;
+    background-color: white;
+    display: inline-block;
+    text-align: center;
+    margin: 1vh;
+    border: 1px solid black;
+}
+
+
+
+.rows{
+    padding : 4vh 15vw;
+}
+
