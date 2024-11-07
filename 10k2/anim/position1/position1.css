@@ -1,25 +1,33 @@
+#l1{
+    position: relative;
+    top: 0rem;
+    left:14%;
+    }
+
+
+
 
 
 #l2{
 position: relative;
-top: 25rem;
-left:16.57%;
+top: 0rem;
+left:73%;
 }
 
 #l3{
     position: relative;
-    top: 25rem;
-    left:32%;
+    top: 35rem;
+    left:1%;
     }
 
     #l4{
         position: relative;
-        top: 17rem;
-        left:4%;
+        top: 35rem;
+        left:60%;
         }
 
         #l5{
             position: relative;
-            top: 10rem;
-            left:5%;
+            top: 20rem;
+            left:20%;
             }
