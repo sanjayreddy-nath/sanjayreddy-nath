@@ -1,0 +1,53 @@
+.right{
+margin-left: 150px;
+animation-duration:3s;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+animation-name:rotateimg;
+}
+
+@keyframes rotateimg{
+
+  0%{
+    transform: translateX(150px) rotate(0deg);
+}
+    50%
+    {
+        transform: translateX(80vw) rotate(180deg);
+    }    
+
+
+    100%
+    {
+        transform: translateX(150px) rotate(360deg);
+    }
+ 
+}
+
+.left{
+    animation-duration:3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-name:bounceimg;
+    }
+    
+    @keyframes bounceimg
+    {
+    
+      0%
+      {
+        transform: translateY(0px) rotate(0deg);
+    }
+        50%
+        {
+            transform: translateY(50vh) rotate(180deg);
+        }    
+    
+    
+        100%
+        {
+            transform: translateY(0px) rotate(360deg);
+        }
+        
+    
+    }

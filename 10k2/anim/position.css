@@ -1,0 +1,22 @@
+*{
+    margin: 0px;
+}
+
+.parent{
+position: fixed;
+width: 100%;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    background-color: red;      
+
+}
+.child-2{
+    display: flex;
+    gap: 20px;
+}
+.san{
+    padding-top: 75px;
+}
