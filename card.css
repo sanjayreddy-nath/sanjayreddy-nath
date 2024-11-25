@@ -1,0 +1,67 @@
+ .parent{
+    display:flex;
+    background-color:red;
+    justify-content: space-around;
+    align-items: center;
+ }
+ .child-2{
+    display: flex;
+    gap: 1rem;
+ }
+
+ @media screen and (max-width:400px) {
+    .parent{
+        display: flex;
+        flex-direction: column;
+    }
+    .child-2 {
+        
+        flex-direction: column;
+        gap:10px;
+    }
+ }
+
+
+
+ @media screen and (min-width:401px) and (max-width:768px)
+{
+    .parent{
+        flex-direction: column;
+    }
+    .child-2 {
+        
+        flex-direction: row;
+        gap:10px;
+    }
+}
+
+
+
+
+
+
+ @media screen and (min-width:1025px) and (max-width:1440px)
+  {
+   *{
+font-family:cursive;
+   } 
+   .parent h2{
+    font-size: 2.4rem;
+   }
+   .child-2 span{
+    font-size: 2.4rem;
+   }
+
+ }
+
+ @media screen and (min-width:1441px) and (max-width:2560px)  {
+    *{
+        font-family:cursive;
+       } 
+       .parent h2{
+        font-size: 2.4rem;
+       }
+       .child-2 span{
+        font-size: 2.4rem;
+       }
+    }
